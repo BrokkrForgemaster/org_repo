@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Wolf.Domain.Users;
 
 namespace Wolf.Application.Services.Authentication
 {
     public record AuthenticationResult(
-        Guid Id,
-        string Username,
-        string Email,
+        User User,
         string Token);
 }

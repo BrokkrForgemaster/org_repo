@@ -22,3 +22,4 @@ C:\brokkr\org_repo\Asp.Net\Wolf\Wolf.Domain\obj\Debug\net8.0\Wolf.Domain.dll
 C:\brokkr\org_repo\Asp.Net\Wolf\Wolf.Domain\obj\Debug\net8.0\refint\Wolf.Domain.dll
 C:\brokkr\org_repo\Asp.Net\Wolf\Wolf.Domain\obj\Debug\net8.0\Wolf.Domain.pdb
 C:\brokkr\org_repo\Asp.Net\Wolf\Wolf.Domain\obj\Debug\net8.0\ref\Wolf.Domain.dll
+C:\brokkr\org_repo\Asp.Net\Wolf\Wolf.Domain\obj\Debug\net8.0\Wolf.Domain.csproj.AssemblyReference.cache

@@ -1,7 +1,8 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
+using System.Security.Claims;
 using Microsoft.Extensions.Options;
+using Wolf.Domain.Users;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using Wolf.Application.Common.Interfaces.Authentication;
 using Wolf.Application.Common.Interfaces.Services;
@@ -19,7 +20,7 @@ namespace Wolf.Infrastructure.Authentication
             _jwtSettings = jwtOptions.Value;
         }
 
-        public string GenerateToken(Guid userId, string username, string email)
+        public string GenerateToken(User user) 
         {
             SigningCredentials signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(
@@ -27,9 +28,9 @@ namespace Wolf.Infrastructure.Authentication
                 SecurityAlgorithms.HmacSha256);
 
             Claim[] claims = new[] {
-                new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-                new Claim(JwtRegisteredClaimNames.UniqueName, username),
-                new Claim(JwtRegisteredClaimNames.Email, email),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id?.ToString() ?? string.Empty),
+                new Claim(JwtRegisteredClaimNames.UniqueName, user.Username),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
             };
             

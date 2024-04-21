@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "iB+p590YK/mjoGp34gPoHug9TST59AhoEGYGh37WTNG95EjduZpjNdsCT8co7jOEs6NFPOTue0+X3UkKjxJ7xA==",
+  "dgSpecHash": "ZnmjdxXy6pXg/WdugXjkk06IY6u0/o+gAbvKgiGqDuvsJTvV6viw4Kikpm3/srRI5JJvpMsr+fRQOfsojdrRKA==",
   "success": true,
   "projectFilePath": "C:\\brokkr\\org_repo\\Asp.Net\\Wolf\\Wolf.Application\\Wolf.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Chad Powell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\erroror\\0.1.0\\erroror.0.1.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.3.24172.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512"
   ],
   "logs": []
 }

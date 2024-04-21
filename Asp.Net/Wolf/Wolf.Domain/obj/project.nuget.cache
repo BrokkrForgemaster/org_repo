@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wCtjdCOKbb/lz78y0pVQpuoYGhshmGYxb2ad9oNhP8C+VXqVt2Gt8sU7U0q/YN9wHjHB8GOWJqc3kLGKZTCuRw==",
+  "dgSpecHash": "P4mOfLKlNFakeygKbDdTpf8tSL2BU6ImJ7szrcMvr+2Qn/GYFT1gC18IVx0GUhHzOoH/FuqkBd1Bjj8r7tlpHA==",
   "success": true,
   "projectFilePath": "C:\\brokkr\\org_repo\\Asp.Net\\Wolf\\Wolf.Domain\\Wolf.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\erroror\\0.1.0\\erroror.0.1.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Chad Powell\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
