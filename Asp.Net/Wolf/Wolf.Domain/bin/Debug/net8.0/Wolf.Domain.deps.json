@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Wolf.Domain/1.0.0": {
+        "runtime": {
+          "Wolf.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wolf.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

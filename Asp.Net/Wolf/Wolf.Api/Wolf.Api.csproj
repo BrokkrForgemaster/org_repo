@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wolf.Contracts\Wolf.Contracts.csproj" />
+    <ProjectReference Include="..\Wolf.Application\Wolf.Application.csproj" />
+    <ProjectReference Include="..\Wolf.Infrastructure\Wolf.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>c7145e9e-ad45-4ef1-a689-f972555e12df</UserSecretsId>
+  </PropertyGroup>
+
+</Project>
